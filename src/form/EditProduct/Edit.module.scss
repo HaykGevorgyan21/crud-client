@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.edit-button {
+  background-image: url("../../images/edit-svgrepo-com.svg");
+  background-color: #0e1621;
+  outline: none;
+  border: 1px solid #0e1621;
+  width: 25px;
+  height: 25px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  margin-left: 5px;
+  float: right;
+}
+
+
+.upload-image-display {
+  width: 100%;
+  height: 100%;
+  margin-top: 30px;
+  border-radius: 16px;
+  padding-left: 15px;
+}
+
+.upload_image {
+  display: none;
+}
+
+.upload-image-display > label {
+  border: 2px dashed;
+  border-radius: 16px;
+  display: block;
+  width: 97%;
+  height: 200px;
+  cursor: pointer;
+  background-image: url("https://static.thenounproject.com/png/1156518-200.png");
+  background-repeat: no-repeat;
+  background-position-x: 140px;
+  margin-bottom: 20px;
+}
+
+.input-name {
+  width: 97%;
+  height: 30px;
+  border: 2px dashed;
+  border-radius: 16px;
+  column-gap: 30px;
+  outline: none;
+  margin-bottom: 20px;
+}
+.input-name::placeholder {
+  color: black;
+  text-align: center;
+}
+.submit {
+  margin-left: -92%;
+  width: 190px;
+  padding: 10px;
+  // margin-bottom: 20px;
+  margin-top: 60px;
+  border-radius: 16px;
+  border: 2px dashed black;
+  font-size: 18px;
+  font-family: sans-serif;
+  cursor: pointer;
+  color: black;
+  display: inline-block;
+  position: absolute;
+}
+.submit:hover {
+  background-color: green;
+  color: white;
+}
+
+.cansel {
+  position: absolute;
+  margin-left: -30%;
+  margin-top: 60px;
+  padding: 10px;
+  width: 190px;
+  z-index: 1;
+  border-radius: 16px;
+  border: 2px dashed;
+  display: inline-block;
+  cursor: pointer;
+  font-family: sans-serif;
+  font-size: 18px;
+  display: none;
+}
+.cansel:hover {
+  background-color: #0c5dff;
+}

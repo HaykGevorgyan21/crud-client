@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.delete-button {
+  background-image: url("../../images/icons8-delete.svg");
+  background-color: #0e1621;
+  outline: none;
+  border: 1px solid #0e1621;
+  width: 25px;
+  height: 25px;
+
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  float: right;
+}
+.delete-button:hover {
+  background-color: rgb(252, 47, 47);
+}
+
+.delete-button:active {
+  box-shadow: inset 1px 1px 1px 1px;
+}
+.custom-class {
+  color: #0e1621;
+}

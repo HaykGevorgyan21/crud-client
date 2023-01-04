@@ -1,0 +1,69 @@
+.background-search-bar {
+  width: 280px;
+  display: flex;
+  float: right;
+}
+
+.Search-bar {
+  width: 250px;
+  height: 40px;
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
+  outline: none;
+  color: #0c5dff;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+.search-add-button {
+  background-image: url("../../images/icons8-search.svg");
+  width: 30px;
+  height: 40px;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-bottom-right-radius: 8px;
+  border-top-right-radius: 8px;
+  cursor: pointer;
+}
+
+.search-add-button:active {
+  box-shadow: inset 1px 1px 1px 1px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.background-image {
+  width: 100%;
+  height: 100%;
+  margin-top: 100px;
+  flex-wrap: wrap;
+  background-color: #0e1621;
+  display: flex;
+}
+
+.background-image > div {
+  border: 1px solid white;
+  margin: 10px 0px 20px 20px;
+  border-radius: 16px;
+  text-align: center;
+}
+.background-image > div > img {
+  width: 250px;
+  height: 250px;
+  background-size: contain;
+  cursor: pointer;
+  border-radius: 16px;
+  display: block;
+}
+.background-image > div > h1 {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: white;
+  display: inline-block;
+}

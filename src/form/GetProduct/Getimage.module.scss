@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.background-images {
+  width: 100%;
+  height: 100%;
+  margin-top: 100px;
+  flex-wrap: wrap;
+  background-color: #0e1621;
+  display: flex;
+}
+
+.background-images > div {
+  border: 1px solid white;
+  margin: 10px 0px 20px 20px;
+  border-radius: 16px;
+  text-align: center;
+}
+.background-images > div > img {
+  width: 250px;
+  height: 250px;
+  background-size: contain;
+  cursor: pointer;
+  border-radius: 16px;
+  display: block;
+}
+.background-images > div > h1 {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: white;
+  display: inline-block;
+}
+.show {
+  display: block;
+}
+.close {
+  display: none;
+}
+.delete-button {
+  background-image: url("../../images/icons8-delete.svg");
+  background-color: #0e1621;
+  outline: none;
+  border: 1px solid #0e1621;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  float: right;
+}

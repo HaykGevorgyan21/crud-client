@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #0e1621;
+}
+.upload-image-display {
+  margin-left: 33.33333%;
+  background-color: #317deb;
+  width: 500px;
+  height: 100%;
+  margin-top: 30px;
+  border-radius: 16px;
+  padding-left: 15px;
+}
+.upload_image {
+  display: none;
+}
+.upload-image-display > label {
+  border: 2px dashed;
+  border-radius: 16px;
+  display: block;
+  width: 470px;
+  height: 200px;
+  cursor: pointer;
+  background-image: url("https://static.thenounproject.com/png/1156518-200.png");
+  background-repeat: no-repeat;
+  background-position-x: 140px;
+  margin-bottom: 20px;
+  background-color: #317deb;
+}
+.upload-image-display > h3 {
+  font-family: sans-serif;
+  text-align: center;
+  margin-bottom: 20px;
+  color: black;
+}
+.input-name {
+  width: 470px;
+  height: 30px;
+  border: 2px dashed;
+  border-radius: 16px;
+  column-gap: 30px;
+  outline: none;
+  margin-bottom: 20px;
+  background-color: #317deb;
+}
+.input-name::placeholder {
+  color: black;
+  text-align: center;
+}
+.submit {
+  margin-left: 33%;
+  width: 150px;
+  height: 30px;
+  margin-bottom: 20px;
+  border-radius: 16px;
+  border: 2px dashed black;
+  background-color: #317deb;
+  font-size: 18px;
+  font-family: sans-serif;
+  cursor: pointer;
+  color: black;
+}
+.submit:hover {
+  background-color: green;
+  color: white;
+}
